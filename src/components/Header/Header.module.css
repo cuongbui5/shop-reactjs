@@ -1,0 +1,54 @@
+/* Header.module.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input[type="text"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.searchBar button {
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+}
+
+.navItem {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navItem a,
+.navItem button {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
